@@ -1,5 +1,5 @@
 # Ex. No: 6 Identifying MAC and IP Addresses Using Packet Tracer
-# Date:
+# Date:19.09.2025
 ________________________________________
 # Objective
 To use Cisco Packet Tracer simulation mode to capture and analyze MAC and IP address information for both local and remote network communication.
@@ -49,8 +49,21 @@ Switch1	000C:85CC:1DA7	00D0:D311:C788	N/A	N/A<br>
 ________________________________________
 # Output (Screenshots)
 •	PDU details for local communication<br>
-•	PDU details for remote communication<br>
+(Pinging from 172.16.31.5 to 172.16.31.2)
+![WhatsApp Image 2025-09-19 at 09 22 09_b9a2d3dd](https://github.com/user-attachments/assets/4055baef-a4ed-4f93-9457-525c6d9524ae)
+![WhatsApp Image 2025-09-19 at 09 22 26_1cc91b96](https://github.com/user-attachments/assets/96b15133-5d0d-44bb-9d84-5a37bfc75976)
+
+•	PDU details for remote communication (Pinging from 172.16.31.5 to 10.10.10.2<br>
+![WhatsApp Image 2025-09-19 at 09 22 25_07ca6c62](https://github.com/user-attachments/assets/302cadf3-7cab-482f-a93b-35b770b38f24)
+![WhatsApp Image 2025-09-19 at 09 22 25_b912679b](https://github.com/user-attachments/assets/c1e21d38-4029-4263-8cda-4db795fa6896)
+
+
 •	Tables showing MAC/IP changes through each device<br>
+Local Communication(From 172.16.31.5 to 172.16.31.2)
+![WhatsApp Image 2025-09-19 at 09 27 45_3ec536b0](https://github.com/user-attachments/assets/b6f8b114-5c38-448e-8320-67101eb45710)
+Remote Communication(From 172.16.31.5 to 10.10.10.2)
+![WhatsApp Image 2025-09-19 at 09 28 37_9cb987d0](https://github.com/user-attachments/assets/97902765-bc07-424e-9bf5-22dcc0d0b387)
+
 ________________________________________
 # Result
 Successfully captured and analyzed MAC and IP addresses for both local and remote communications. Verified that MAC addresses change at each hop while IP addresses remain constant from source to destination.
